@@ -15,12 +15,12 @@ export default function DualInfoblock({heading , img}) {
                  </p>
               </div>
               <div className="col-4 mx-auto">
-              <div class="card bg-dark" >
+              <div className="card bg-dark" >
   <img src={img}
-   class="card-img-top" alt="Image goes here" />
-  <div class="card-body text-white">
-    <h5 class="card-title">Just click photos</h5>
-    <p class="card-text">Ipsum minim ex cillum aliqua sit tempor magna non mollit proident sunt ullamco aliqua. Commodo do excepteur exercitation eu. Cillum et culpa cupidatat veniam laboris laboris nisi nisi aliquip aute mollit consectetur magna duis.
+  className="card-img-top" alt="Image goes here" />
+  <div className="card-body text-white">
+    <h5 className="card-title">Just click photos</h5>
+    <p className="card-text">Ipsum minim ex cillum aliqua sit tempor magna non mollit proident sunt ullamco aliqua. Commodo do excepteur exercitation eu. Cillum et culpa cupidatat veniam laboris laboris nisi nisi aliquip aute mollit consectetur magna duis.
     </p>
     
     <Link to="/" className="btn btn-warning btn-block">{heading}</Link>
